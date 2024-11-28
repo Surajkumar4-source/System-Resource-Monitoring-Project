@@ -145,6 +145,21 @@ Launch the Flask app to view resource usage in real time with graphical represen
 Access detailed logs of resource usage and threshold breaches for debugging or optimization.
 
 
+<br>
+
+<br>
+
+
+   
+
+## Future Enhancements
+- Add email alerts for threshold breaches.
+- Enable dynamic thresholds through the web interface.
+- Store logs in a database for improved querying and analysis.
+
+
+
+
 
 <br>
 <br>
@@ -152,45 +167,141 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 
 
-## Screenshots
+##                                         Screenshots
 
-1. **Web Interface**
+
+
+## 1.  monitor.sh 
+
+<br>
+<br>
+
+
+![Alt text for image](screenshots/monitor1.jpg)
+
+2.  monitor.sh 
+<br>
+<br>
+
+
+![Alt text for image](screenshots/monitor2.jpg)
+
+
+3. simulate_load.sh
+<br>
+<br>
+
+
+![Alt text for image](screenshots/simulate.jpg)
+
+<br>
+<br>
+
+
+
+
+
+
+## 4.  app.py
+
+<br>
+<br>
+
+
+![Alt text for image](screenshots/app1.jpg)
+
+## 5.   app.py
+
+<br>
+<br>
+
+
+![Alt text for image](screenshots/app2.jpg)
+
+
+## 6.  app.py
+
+<br>
+<br>
+
+
+![Alt text for image](screenshots/app3.jpg)
+
+<br>
+<br>
+
+
+
+
+
+
+## 7.  index.html 
+
+<br>
+<br>
+
+
+![Alt text for image](screenshots/index1.jpg)
+
+## 8.  index.html
+<br>
+<br>
+
+
+![Alt text for image](screenshots/index2.jpg)
+
+
+## 9. stressng_load.sh
+<br>
+<br>
+
+
+![Alt text for image](screenshots/stressng.jpg)
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+# ---------------Final Output---------------
+
+**Web Interface**
    - Real-time pie charts and logs.
 
 
 
-
-1.
+## 10. Before demo load 
 <br>
 <br>
 
 
-![Alt text for image](screenshots/1.JPG)
+![Alt text for image](screenshots/1.jpg)
 
-2.
+
+
 <br>
 <br>
-
-
-![Alt text for image](screenshots/2.JPG)
-
-
-3.
-<br>
-<br>
-
-
-![Alt text for image](screenshots/3.png)
 
 <br>
 <br>
 
 
 
+## 11. After demo load
+<br>
+<br>
+
+
+![Alt text for image](screenshots/2.jpg)
+
+<br>
+<br>
 
 
 
-2. **Log Example**
+##  **Log Example**
    ```
    Wed 27 Nov 2024 10:00:00 PM IST: CPU usage is at 75%, Memory usage is at 65%, Disk usage is at 80%
    Wed 27 Nov 2024 10:01:00 PM IST: CPU usage is at 82%, Memory usage is at 70%, Disk usage is at 90% (Alert triggered)
@@ -216,9 +327,3 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 
 
-   
-
-## Future Enhancements
-- Add email alerts for threshold breaches.
-- Enable dynamic thresholds through the web interface.
-- Store logs in a database for improved querying and analysis.
