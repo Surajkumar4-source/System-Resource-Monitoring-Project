@@ -147,17 +147,6 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 <br>
 
-<br>
-
-
-   
-
-## Future Enhancements
-- Add email alerts for threshold breaches.
-- Enable dynamic thresholds through the web interface.
-- Store logs in a database for improved querying and analysis.
-
-
 
 
 
