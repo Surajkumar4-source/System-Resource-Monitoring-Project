@@ -171,7 +171,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 
 
-## 1.  monitor.sh 
+### 1.  monitor.sh 
 
 <br>
 <br>
@@ -179,7 +179,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 ![Alt text for image](screenshots/monitor1.jpg)
 
-2.  monitor.sh 
+### 2.  monitor.sh 
 <br>
 <br>
 
@@ -187,7 +187,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 ![Alt text for image](screenshots/monitor2.jpg)
 
 
-3. simulate_load.sh
+### 3. simulate_load.sh
 <br>
 <br>
 
@@ -202,7 +202,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 
 
-## 4.  app.py
+### 4.  app.py
 
 <br>
 <br>
@@ -210,7 +210,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 ![Alt text for image](screenshots/app1.jpg)
 
-## 5.   app.py
+### 5.   app.py
 
 <br>
 <br>
@@ -219,7 +219,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 ![Alt text for image](screenshots/app2.jpg)
 
 
-## 6.  app.py
+### 6.  app.py
 
 <br>
 <br>
@@ -235,7 +235,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 
 
-## 7.  index.html 
+### 7.  index.html 
 
 <br>
 <br>
@@ -243,7 +243,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 ![Alt text for image](screenshots/index1.jpg)
 
-## 8.  index.html
+### 8.  index.html
 <br>
 <br>
 
@@ -251,7 +251,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 ![Alt text for image](screenshots/index2.jpg)
 
 
-## 9. stressng_load.sh
+### 9. stressng_load.sh
 <br>
 <br>
 
@@ -267,12 +267,12 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 # ---------------Final Output---------------
 
-**Web Interface**
+## **Web Interface**
    - Real-time pie charts and logs.
 
 
 
-## 10. Before demo load 
+### 10. Before demo load 
 <br>
 <br>
 
@@ -289,7 +289,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 
 
-## 11. After demo load
+### 11. After demo load
 <br>
 <br>
 
@@ -301,7 +301,7 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 
 
 
-##  **Log Example**
+###  **Log Example**
    ```
    Wed 27 Nov 2024 10:00:00 PM IST: CPU usage is at 75%, Memory usage is at 65%, Disk usage is at 80%
    Wed 27 Nov 2024 10:01:00 PM IST: CPU usage is at 82%, Memory usage is at 70%, Disk usage is at 90% (Alert triggered)
