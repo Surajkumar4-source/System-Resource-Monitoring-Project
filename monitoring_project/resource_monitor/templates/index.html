@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Resource Monitor By Suraj</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .charts {
+            display: flex;
+            justify-content: space-between; /* Space charts evenly */
+            align-items: center; /* Center charts vertically */
+            flex-wrap: nowrap; /* Prevent wrapping */
+        }
+        .chart {
+            flex: 1; /* Make charts flexible */
+            margin: 10px; /* Add margin for spacing */
+            text-align: center; /* Center the chart title */
+        }
+        img {
+            max-width: 100%; /* Ensure charts fit within their container */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <h1>System Resource Monitoring Logs</h1>
+    <div class="charts">
+        <div class="chart">
+            <h2>CPU Usage</h2>
+            <img src="data:image/png;base64,{{ cpu_chart }}" alt="CPU Usage Chart">
+        </div>
+        <div class="chart">
+            <h2>Memory Usage</h2>
+            <img src="data:image/png;base64,{{ memory_chart }}" alt="Memory Usage Chart">
+        </div>
+        <div class="chart">
+            <h2>Disk Usage</h2>
+            <img src="data:image/png;base64,{{ disk_chart }}" alt="Disk Usage Chart">
+        </div>
+    </div>
+    <h2>Last 10 Minutes Logs</h2>
+    <pre>
+        {% for log in logs %}
+            {{ log }}
+        {% endfor %}
+    </pre>
+</body>
+</html>
