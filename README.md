@@ -312,9 +312,16 @@ Access detailed logs of resource usage and threshold breaches for debugging or o
 ## Working Demo
 
 
-- **[Click here to download the video](screnshots/demo.mp4)**
+<br>
+<br>
+<br>
+
+ 
 
 
+
+
+https://github.com/user-attachments/assets/29e8f2f3-061f-4f35-8ce3-d15674f8f7e7
 
 
 
